@@ -1,0 +1,38 @@
+
+    div.pagination {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;		
+    }
+
+    div.pagination a {
+        padding: 5px 8px 5px 8px;
+        margin: 5px;
+        border: 1px solid #434440;
+        text-decoration: none; /* no underline */
+        color: #373737;
+    }
+    div.pagination a:hover, div.pagination a:active {
+        border: 1px solid #8b9399;
+        color: #000;
+    }
+    div.pagination span.current {
+        padding: 5px 14px 5px 14px;
+        margin: 5px;
+        border: 1px solid #434440;
+        font-weight: bold;
+        background-color: #5a6667;
+        color: #FFF;
+    }
+    div.pagination span.disabled {
+        padding: 5px 14px 5px 14px;
+        margin: 2px;
+        border: 1px solid #EEE;
+        color: #DDD;
+    }
+    .progress-bar {
+        color: black;
+    }
+    .progress {   
+    margin-bottom: 0px;
+    }
